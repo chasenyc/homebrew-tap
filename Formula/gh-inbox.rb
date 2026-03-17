@@ -1,22 +1,22 @@
 class GhInbox < Formula
   desc "Terminal dashboard for GitHub pull requests"
   homepage "https://github.com/chasenyc/gh-inbox"
-  version "0.4.2"
+  version "0.4.3"
   license "MIT"
 
   on_macos do
     if Hardware::CPU.arm?
-      url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.2/gh-inbox-aarch64-apple-darwin.tar.gz"
-      sha256 "34c194e4e8592fdf667366f9ede63feeb6f41e0eafe6964f46a716e9aa05a613"
+      url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.3/gh-inbox-aarch64-apple-darwin.tar.gz"
+      sha256 "430ba29ba0ae545aece54d373eae46d9a9d62acb3eb867493672e1a7e417cb44"
     else
-      url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.2/gh-inbox-x86_64-apple-darwin.tar.gz"
-      sha256 "cbf42a65c9ec5bff9f240cce6c9da935717a60e8d4da55cb10eac70b95da88da"
+      url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.3/gh-inbox-x86_64-apple-darwin.tar.gz"
+      sha256 "ad39d7fbec72a874dd71878d1cf2bf614df4f5ca37583f125d9a5479b81f693f"
     end
   end
 
   on_linux do
-    url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.2/gh-inbox-x86_64-unknown-linux-gnu.tar.gz"
-    sha256 "67c326d3839de70913fce6e3bce6c66aa97fd05e36cbc6e8778adfce6530bb54"
+    url "https://github.com/chasenyc/gh-inbox/releases/download/v0.4.3/gh-inbox-x86_64-unknown-linux-gnu.tar.gz"
+    sha256 "0add353d1bc0d0a265830278e8d84529a043abed77cd578f63f9cd1119d4ef76"
   end
 
   def install
