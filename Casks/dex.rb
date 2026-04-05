@@ -1,12 +1,12 @@
 cask "dex" do
-  version "0.1.0"
+  version "0.1.1"
 
   if Hardware::CPU.arm?
-    url "https://github.com/chasenyc/dex/releases/download/v0.1.0/dex-aarch64-apple-darwin.tar.gz"
-    sha256 "aae3b617755c9bc4bf4affe1e06d8168bc3819f9c6e6748d769269a3b41034f8"
+    url "https://github.com/chasenyc/dex/releases/download/v0.1.1/dex-aarch64-apple-darwin.tar.gz"
+    sha256 "bcedfa5b6ca169f3e32658e836499c0b80d1a922bafbe750b7a3276cab128788"
   else
-    url "https://github.com/chasenyc/dex/releases/download/v0.1.0/dex-x86_64-apple-darwin.tar.gz"
-    sha256 "371664e672419e5a7959a89f92d72d1cdae11d56adedd973b8ab0191f744ee77"
+    url "https://github.com/chasenyc/dex/releases/download/v0.1.1/dex-x86_64-apple-darwin.tar.gz"
+    sha256 "d7029b46ddd3d5b951aa8aa4f6d7bf845ba4e0a4f4e1959ad2ae078c3a6573e3"
   end
 
   name "Dex"
